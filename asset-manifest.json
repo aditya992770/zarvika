@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zarvika/static/css/main.737b5f36.css",
+    "main.js": "/zarvika/static/js/main.e06d905d.js",
+    "static/js/453.83a4ff38.chunk.js": "/zarvika/static/js/453.83a4ff38.chunk.js",
+    "static/media/zarvika_logo.png": "/zarvika/static/media/zarvika_logo.35210c769a3ad7e4d535.png",
+    "index.html": "/zarvika/index.html",
+    "main.737b5f36.css.map": "/zarvika/static/css/main.737b5f36.css.map",
+    "main.e06d905d.js.map": "/zarvika/static/js/main.e06d905d.js.map",
+    "453.83a4ff38.chunk.js.map": "/zarvika/static/js/453.83a4ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.737b5f36.css",
+    "static/js/main.e06d905d.js"
+  ]
+}
