@@ -23,6 +23,9 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 # Copy Laravel project
 COPY . .
 
+# Set Apache DocumentRoot to Laravel public folder
+RUN sed -i 's|/var/www/html|/var/www/html/public|g' /etc/apache2/sites-available/000-default.conf
+
 # Install Laravel dependencies
 RUN composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
 
